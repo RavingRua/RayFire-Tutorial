@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33543361070429788}
   - component: {fileID: 23965030567748808}
   m_Layer: 0
-  m_Name: 01
+  m_Name: SafetyLever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,11 +25,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549367709313256}
-  m_LocalRotation: {x: -0, y: 0, z: 0.28454632, w: 0.95866233}
-  m_LocalPosition: {x: 0.0032668854, y: 0.031237444, z: -0.0032556606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.075080186, z: -0.009142236}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4803080829805316}
+  m_Father: {fileID: 4379243761268538}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33543361070429788
@@ -110,6 +110,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4971776823056104}
   - {fileID: 4803080829805316}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -175,7 +176,7 @@ GameObject:
   - component: {fileID: 33656059089505750}
   - component: {fileID: 23009326331692420}
   m_Layer: 0
-  m_Name: Pin
+  m_Name: SafetyPinRing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,10 +192,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: -0.28454632, w: 0.95866233}
   m_LocalPosition: {x: -0.019780004, y: 0.05068343, z: -0.005886575}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4971776823056104}
+  m_Children: []
   m_Father: {fileID: 4379243761268538}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33656059089505750
 MeshFilter:
