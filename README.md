@@ -1,6 +1,6 @@
 # Unity 专业破坏效果插件 RayFire for Unity 入门教程
 
-![RayFire](assets/README/sl_shatter.png)
+![RayFire](Assets/Images/sl_shatter.png)
 
 > **RayFire** 是一款可以在运行时对 3D 对象进行无限次拆除或切片的插件，还可在编辑模式下对其进行预粉碎。
 > 此外，RayFire 还可对模拟对象和拆除的片段提供**高级动态模拟控制功能**，比如在需要时将其激活。借助**风力和旋风力**，它可以实现**射击、爆炸和侵袭**，记录编辑器中的模拟并在运行时播放。
